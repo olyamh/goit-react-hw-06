@@ -3,9 +3,10 @@ import { FaPhoneAlt } from "react-icons/fa";
 import s from './Contact.module.css';
 import clsx from 'clsx'
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/ContactsSlice";
+import { deleteContact } from "../../redux/contactsSlice";
 
 const Contact = ({id, name, number}) => {
+    
 const dispatch = useDispatch(   )
     return (
            <li className={clsx(s.wrapper)}>
