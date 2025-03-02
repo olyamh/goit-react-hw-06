@@ -3,9 +3,10 @@ import * as Yup from "yup";
 import clsx from 'clsx';
 import s from './ContactForm.module.css';
 import { useDispatch } from "react-redux";
-import { addContact } from "../../redux/ContactsSlice";
+import { addContact } from "../../redux/contactsSlice";
 
 const ContactForm = () => {
+  
   const initialValues = {
     name: "",
     number: "",
